@@ -1,0 +1,39 @@
+.events-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.events-title {
+  margin: 0;
+  padding: 5px 0 5px;
+  border-radius: 5px 5px 0 0;
+  background-color: #6362604c;
+  text-align: center;
+}
+
+.events-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 765px) {
+  .events-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .events-title {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,26 @@
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.banner {
+  background-image: url(../../images/4efb2ade8d165ff20835c68834d669ee_screen.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  min-height: 235px;
+}
+
+@media screen and (max-width: 899px) {
+  .content {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .content {
+    min-width: 282px;
+  }
+}

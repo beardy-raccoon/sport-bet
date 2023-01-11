@@ -1,0 +1,169 @@
+.event-bet {
+  padding: 20px 0;
+  min-height: 85vh;
+}
+
+.event-bet__title {
+  max-width: 1024px;
+  margin: 5px auto;
+  padding: 5px 0;
+  text-align: center;
+  background-color: #6362604c;
+  border-radius: 5px 5px 0 0;
+}
+
+.event-bet__content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px 10px;
+  border-radius: 5px;
+  max-width: 1024px;
+  background-color: #6362604c;
+  box-sizing: border-box;
+}
+
+.event-bet__team-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  min-width: 170px;
+  box-sizing: border-box;
+}
+
+.event-bet__mid-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-bet__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-bet__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.event-bet__input-container {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.event-bet__input {
+  display: none;
+}
+
+.event-bet__label {
+  padding: 5px 12px;
+  border-radius: 5px;
+  background-color: rgb(29, 160, 105);
+  cursor: pointer;
+  transition: all .9s;
+  text-align: center;
+  box-sizing: border-box;
+  min-width: 230px;
+  min-height: 32px;
+}
+
+.event-bet__input:checked+.event-bet__label {
+  opacity: .5;
+  transition: all .3s;
+}
+
+.event-bet__form-button {
+  margin-top: 25px;
+  background-color: rgb(29, 160, 105);
+  padding: 5px 12px;
+  min-width: 230px;
+  min-height: 32px;
+  color: inherit;
+}
+
+.event-bet__form-button:disabled {
+  background-color: gray;
+  cursor: default;
+}
+
+.event-bet__date {
+  margin: 0;
+  padding: 5px 5px;
+}
+
+.event-bet__time {
+  margin: 0;
+  padding: 5px 5px;
+}
+
+.event-bet__link-text {
+  max-width: 1024px;
+  margin: 10px auto 0;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 899px) {
+  .event-bet__content-wrapper {
+    max-width: 90%;
+  }
+
+  .event-bet__title, .event-bet__link-text {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .event-bet__content-wrapper {
+    font-size: 12px;
+  }
+
+  .event-bet__title {
+    font-size: 18px;
+  }
+
+  .event-bet__label {
+    min-width: 137px;
+    max-width: 137px;
+  }
+
+  .event-bet__form-button {
+    min-width: 137px;
+  }
+
+  .event-bet__team-wrapper {
+    min-width: unset;
+    text-align: center;
+  }
+
+  .event-bet__label {
+    padding: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .event-bet__team-wrapper {
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .event-bet__content-wrapper, .event-bet__link-text {
+    min-width: 282px;
+    font-size: 12px;
+  }
+
+  .event-bet__title {
+    min-width: 282px;
+  }
+}
