@@ -1,6 +1,5 @@
 {
   "name": "sport-bet",
-  "homepage": "https://beardy-raccoon.github.io/sport-bet/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
